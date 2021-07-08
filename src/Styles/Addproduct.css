@@ -1,0 +1,67 @@
+.Addproduct {
+  height: 100vh;
+  background-color: #e5ffd0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Addproduct__logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  object-fit: contain;
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.Addproduct__container {
+  margin-top: 70px;
+  width: 300px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 20px;
+}
+
+.Addproduct__container > form > input {
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 98%;
+}
+
+.Addproduct__container > form > h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.Addproduct__container > form > h5 {
+  margin-bottom: 5px;
+}
+
+.Addproduct__container > p {
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.Addproduct__submit {
+  background: #c5f542;
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #ccffa3;
+}
+
+.Addproduct__add {
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: darkgray;
+}

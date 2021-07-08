@@ -1,6 +1,10 @@
 export const initialState = {
   basket: [],
   user: null,
+<<<<<<< HEAD
+=======
+  items: [],
+>>>>>>> 2050573 (Next update)
 };
 
 //selector
@@ -47,6 +51,20 @@ const reducer = (state, action) => {
         basket: [],
       };
 
+<<<<<<< HEAD
+=======
+    case "ADD_TO_ITEMS":
+      return {
+        ...state,
+        items: [...state.items, action.unit],
+      };
+    case "EMPTY_ITEMS":
+      return {
+        ...state,
+        items: [],
+      };
+
+>>>>>>> 2050573 (Next update)
     default:
       return state;
   }
